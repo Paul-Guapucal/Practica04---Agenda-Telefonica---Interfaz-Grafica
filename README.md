@@ -21,15 +21,15 @@
 
 *3.1Paquetes*
 
-[paquetes]:(https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/tree/master/src/ec/edu/ups)
+[paquetes]: (https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/tree/master/src/ec/edu/ups)
 
 *3.1.1 Clase del paquete Vista*
 
-[clase VentanaUsuario]:(https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/blob/master/src/ec/edu/ups/vista/VentanaUsuario.java)
+[clase VentanaUsuario]: (https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/blob/master/src/ec/edu/ups/vista/VentanaUsuario.java)
 
 *3.1.2 Clase del paquete Test*
 
-[clase VentanaAgenda]:(https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/blob/master/src/ec/edu/ups/test/VentanaAgenda.java)
+[clase VentanaAgenda]: (https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/blob/master/src/ec/edu/ups/test/VentanaAgenda.java)
 
 *3.2 Interfaz creada*
 
