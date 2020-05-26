@@ -11,11 +11,11 @@
 
 **1.	Diseñar un prototipo de la aplicación Agenda Telefónica.**
 
-![Screen Prototipo de Interfaz]: ()
+![Screen Prototipo de Interfaz]: (https://github.com/Paul-Guapucal/Capturas-Practica04/blob/master/Captura-PrototipoDeInterfaz.jpg)
 
 **2.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 04: Agenda Telefónica (Interfaz gráfica)”.**
 
-![Screen Repositorio Practica04]: ()
+![Screen Repositorio Practica04]: (https://github.com/Paul-Guapucal/Capturas-Practica04/blob/master/Repositorio-Practica04.jpg)
 
 **3.	Desarrollar una Interfaz Gráfica de Usuario en Java para gestionar una agenda telefónica según los requerimientos planteados en las instrucciones de la práctica.**
 
@@ -30,9 +30,13 @@
 
 [clase VentanaAgenda]: (https://github.com/Paul-Guapucal/Practica04-AgendaTelefonica-Interfaz-Grafica/blob/master/src/ec/edu/ups/test/VentanaAgenda.java)
 
+*3.2 Interfaz creada*
+
+![Screen de la Interfaz]: (https://github.com/Paul-Guapucal/Capturas-Practica04/blob/master/InterfazGrafica.jpg)
+
 **4.	Realizar varios commits en la herramienta GitHub que demuestren el desarrollo de la aplicación desde principio a fin.**
 
-![Screen de los commits]: ()
+![Screen de los commits]: (https://github.com/Paul-Guapucal/Capturas-Practica04/blob/master/Commits.jpg)
 
 **Resultados obtenidos de la Practica**
 
@@ -58,4 +62,4 @@
 
 **Firma del estudiante**
 
-![firma del estudiante]: ()
+![firma del estudiante]: (https://github.com/Paul-Guapucal/Capturas-Practica04/blob/master/Screen%20firma.jpg)
