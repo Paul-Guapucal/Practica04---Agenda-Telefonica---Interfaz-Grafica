@@ -1,9 +1,11 @@
+package ec.edu.ups.vista;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.ups.vista;
+
 
 import java.awt.*;
 
@@ -11,8 +13,8 @@ import java.awt.*;
  *
  * @author paul_
  */
-public class VentanaAgenda extends Frame{
-    
+public class VentanaAgenda extends Frame {
+
     public VentanaAgenda(String title) {
 
         this.setTitle(title);
@@ -32,6 +34,7 @@ public class VentanaAgenda extends Frame{
         Label entrada = new Label("Bienvenido al menu de Usuario");
         panelNorte.add(entrada);
         panelNorte.setBackground(Color.GRAY);
+        entrada.setForeground(Color.WHITE);
         this.add(panelNorte, BorderLayout.NORTH);
 
         GridLayout malla1 = new GridLayout(5, 1);
@@ -53,10 +56,10 @@ public class VentanaAgenda extends Frame{
         TextField operadora = new TextField("", 10);
         Button volver = new Button("Volver");
         volver.setBackground(Color.DARK_GRAY);
-        volver.setForeground(Color.RED);
+        volver.setForeground(Color.WHITE);
         Button registrar = new Button("Registrar");
         registrar.setBackground(Color.DARK_GRAY);
-        registrar.setForeground(Color.RED);
+        registrar.setForeground(Color.WHITE);
 
         panelRegistrar.add(ingresarTelefono);
         panelRegistrar.add(espacio);
@@ -91,10 +94,10 @@ public class VentanaAgenda extends Frame{
         TextField operadoraNuevo = new TextField("", 10);
         Button volver1 = new Button("Volver");
         volver1.setBackground(Color.DARK_GRAY);
-        volver1.setForeground(Color.RED);
+        volver1.setForeground(Color.WHITE);
         Button actualizar = new Button("Registrar");
         actualizar.setBackground(Color.DARK_GRAY);
-        actualizar.setForeground(Color.RED);
+        actualizar.setForeground(Color.WHITE);
 
         editar.add(ingresarNuevoTelefono, BorderLayout.NORTH);
         editar.add(espacio1);
@@ -120,10 +123,10 @@ public class VentanaAgenda extends Frame{
         TextField codigoEliminar = new TextField("1", 5);
         Button eliminar = new Button("Eliminar");
         eliminar.setBackground(Color.DARK_GRAY);
-        eliminar.setForeground(Color.RED);
+        eliminar.setForeground(Color.WHITE);
         Button cancelar = new Button("Cancelar");
         cancelar.setBackground(Color.DARK_GRAY);
-        cancelar.setForeground(Color.RED);
+        cancelar.setForeground(Color.WHITE);
 
         panelEliminar.add(eliminarTelefono);
         panelEliminar.add(espacio2);
@@ -141,7 +144,7 @@ public class VentanaAgenda extends Frame{
         TextField codigoBuscar = new TextField("", 5);
         Button buscar = new Button("Buscar");
         buscar.setBackground(Color.DARK_GRAY);
-        buscar.setForeground(Color.RED);
+        buscar.setForeground(Color.WHITE);
         buscar.setSize(100, 10);
 
         panelBuscar.add(buscarTelefono);
@@ -157,18 +160,17 @@ public class VentanaAgenda extends Frame{
         Label listarTelefono = new Label("Lista de sus telefonos");
         Button listar = new Button("Listar");
         listar.setBackground(Color.DARK_GRAY);
-        listar.setForeground(Color.RED);
+        listar.setForeground(Color.WHITE);
         Label espacio3 = new Label("");
         Button volver2 = new Button("Volver");
         volver2.setBackground(Color.DARK_GRAY);
-        volver2.setForeground(Color.RED);
+        volver2.setForeground(Color.WHITE);
 
         panelListar.add(listarTelefono);
         panelListar.add(espacio3);
         panelListar.add(listar);
         panelListar.add(volver2);
-        
-        
+
         panelCentro.add(panelListar);
         panelCentro.setBackground(Color.WHITE);
         panelCentro.setForeground(Color.BLACK);
@@ -181,10 +183,13 @@ public class VentanaAgenda extends Frame{
 
         Button inicio = new Button("Inicio");
         inicio.setBackground(Color.DARK_GRAY);
+        inicio.setForeground(Color.WHITE);
         Button cerrarSesion = new Button("Cerrar Secion");
         cerrarSesion.setBackground(Color.DARK_GRAY);
+        cerrarSesion.setForeground(Color.WHITE);
         Button salir = new Button("Salir");
         salir.setBackground(Color.DARK_GRAY);
+        salir.setForeground(Color.WHITE);
 
         panelSalir.add(inicio);
         panelSalir.add(cerrarSesion);
